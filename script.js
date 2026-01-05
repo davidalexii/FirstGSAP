@@ -38,7 +38,7 @@ gsap.from(split.words, {
   y: 100,
   opacity: 0,
   ease: "exponential.inOut",
-  stagger: 0.4,
+  stagger: 0.2,
   onComplete: () => {
     gsap.to("#text", {
       scale: 1.3,
@@ -48,3 +48,4 @@ gsap.from(split.words, {
     });
   },
 });
+
